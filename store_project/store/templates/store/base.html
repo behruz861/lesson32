@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Store</title>
+</head>
+<body>
+  <header>
+    <h1>Store</h1>
+    <nav>
+      <ul>
+        <li><a href="{% url 'product_list' %}">Home</a></li>
+      </ul>
+    </nav>
+    <main>
+      {% block content %}
+      {% endblock %}
+    </main>
+  </header>
+</body>
+</html>
